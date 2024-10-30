@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<STyle>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #d3d3d3;
+    }
+    .card{
+        background-color: #2f3e46;
+        border-radius: 20px;
+        padding: 20px;
+        width: 373px;
+        height: 373px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        position: relative;
+    }
+    .avatar{
+        width: 100px;
+        height: 100px;
+        border: 5px solid #ff4081;
+        border-radius: 50%;
+        margin: -70px auto 10px;
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+    }
+    .avatar i{
+     font-size: 50px;
+     padding: 10px;
+   
+    }
+    .info{
+        margin-top: 20px;
+    }
+    .info h2{
+        font-size: 30px;
+        color: #ff4081;
+    }
+    .info p{
+        font-size: 19px;
+        color: #c0c0c0;
+    }
+    .social-links{
+     margin-top: 20px;
+    }
+    .social-links i{
+        margin: 0px 10px;
+        display: inline-block;
+        background-color: #ff4081; 
+        padding: 10PX;       
+        font-size: 40px;
+        border-radius: 50%;
+        color: white;
+    }
+    .followers{
+        background-color: #ff4081;
+        color: white;
+        padding: 30px;
+        border-radius: 0 0 20px 20px;
+        margin-top: 44px;
+        margin-bottom: 20px;
+       
+    }
+   
+</STyle>
+
+<body>
+    <div class="card">
+        <div class="avatar">
+            <i class="fa-solid fa-user-ninja"></i>
+        </div>
+        <div class="info">
+            <h2>Your Name</h2>
+            <p> yourname@amail.com</p>
+            <p>Developer | Designer</p>
+        </div>
+       <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+
+       </div>
+       <div class="followers">
+        <p>120k Followers | 10k Follwing</p>
+
+       </div>
+
+    </div>
+</body>
+</html>
